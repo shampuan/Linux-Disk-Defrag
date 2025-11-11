@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Linux Disk Defrag
+Comment=Graphical utility to analyze and defragment EXT4 disks
+Exec=python3 /usr/share/l-disk-defrag/l-disk-defrag.py
+Icon=defrag64
+Terminal=false
+Type=Application
+Categories=System;Utility;DiskManagement;
+Keywords=defrag;disk;ext4;ssd;hdd;optimize;
+StartupNotify=true

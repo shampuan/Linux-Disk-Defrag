@@ -1,0 +1,19 @@
+Package: linux-disk-defrag
+Version: 2.0.0
+Architecture: all
+Maintainer: A. Serhat KILIÇOĞLU <www.github.com/shampuan>
+Installed-Size: 1024
+Section: utils
+Priority: optional
+Homepage: https://github.com/shampuan/linux-disk-defrag
+Description: Linux EXT4 Disk Defragmenter Tool
+ This graphical application analyzes and defragments EXT4 filesystems
+ using the e4defrag utility. It includes safety checks for SSDs.
+Depends: python3 (>= 3.6), 
+         python3-pyside6 | python3-pyqt6 | python3-qt6, 
+         libqt6core6, 
+         libqt6widgets6, 
+         libqt6gui6, 
+         libxcb-cursor0, 
+         e2fsprogs,
+         pkexec | policykit-1
