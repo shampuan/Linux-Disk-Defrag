@@ -1,6 +1,10 @@
 # Linux-Disk-Defrag
 Ext4 partisyonları için defragmenter uygulaması
 
+----------------------
+WARNING !!!
+This program is currently under maintenance and development due to some issues with its dependencies. Please do not download it now and wait for the next version. I will share it soon. Attempting to install it now may cause some package conflicts and corruption on Debian systems. Once the new version is released, you can safely defragment your mechanical hard drives with ext-4 partitions.
+---------------------
 
 This program is a defragger application for Linux systems using mechanical HDDs. Its purpose is to improve performance in systems that still use HDDs. It is particularly useful in server workstations. Although EXT file systems are often described as free of fragmentation, they actually experience fragmentation, providing performance improvements of up to 30 percent, especially in cases of severe fragmentation. 
 
