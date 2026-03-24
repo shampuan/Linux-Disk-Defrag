@@ -1,12 +1,12 @@
 # Linux-Disk-Defrag
 Defragmenter and SSD TRIM application for Ext4 partitions.
 
-----------------------
+
 Description: HDD defragmentation and SSD optimization tool.
  This program is an HDD defragmentation software developed for Debian-based systems.
  It increases performance on systems using HDDs by defragmenting fragmented files
  online without the need to shut down the system. It also supports SSD TRIM optimization.
---------------------- 
+
 
 The program doesn't let you defragment your SSDs. It also tells you that it's not possible on non-EXTFS disk structures like SWAP and NTFS.
 
