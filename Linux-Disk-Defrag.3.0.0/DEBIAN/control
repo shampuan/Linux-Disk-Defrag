@@ -1,0 +1,13 @@
+Package: l-disk-defrag
+Version: 3.0.0
+Architecture: all
+Maintainer: A. Serhat KILIÇOĞLU <www.github.com/shampuan>
+Installed-Size: 1024
+Section: utils
+Priority: optional
+Homepage: https://github.com/shampuan/linux-disk-defrag
+Description: HDD defragmentation and SSD optimization tool.
+ This program is an HDD defragmentation software developed for Debian-based systems.
+ It increases performance on systems using HDDs by defragmenting fragmented files
+ online without the need to shut down the system. It also supports SSD TRIM optimization.
+Depends: python3, python3-pyqt6, e2fsprogs, util-linux, libxcb-cursor0
