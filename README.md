@@ -1,12 +1,12 @@
 # Linux-Disk-Defrag
-Ext4 partisyonları için defragmenter uygulaması
+Defragmenter and SSD TRIM application for Ext4 partitions.
 
 ----------------------
-WARNING !!!
-This program is currently under maintenance and development due to some issues with its dependencies. Please do not download it now and wait for the next version. I will share it soon. Attempting to install it now may cause some package conflicts and corruption on Debian systems. Once the new version is released, you can safely defragment your mechanical hard drives with ext-4 partitions.
----------------------
-
-This program is a defragger application for Linux systems using mechanical HDDs. Its purpose is to improve performance in systems that still use HDDs. It is particularly useful in server workstations. Although EXT file systems are often described as free of fragmentation, they actually experience fragmentation, providing performance improvements of up to 30 percent, especially in cases of severe fragmentation. 
+Description: HDD defragmentation and SSD optimization tool.
+ This program is an HDD defragmentation software developed for Debian-based systems.
+ It increases performance on systems using HDDs by defragmenting fragmented files
+ online without the need to shut down the system. It also supports SSD TRIM optimization.
+--------------------- 
 
 The program doesn't let you defragment your SSDs. It also tells you that it's not possible on non-EXTFS disk structures like SWAP and NTFS.
 
